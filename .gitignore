@@ -113,6 +113,7 @@ jspm_packages
 # Optional eslint cache
 .eslintcache
 
+
 # Optional REPL history
 .node_repl_history
 
@@ -122,3 +123,9 @@ jspm_packages
 # Created by https://www.gitignore.io/api/.idea
 
 #!! ERROR: .idea is undefined. Use list command to see defined gitignore types !!#
+
+# Created by https://www.gitignore.io/api/idea
+
+#!! ERROR: idea is undefined. Use list command to see defined gitignore types !!#
+.idea
+.idea/
