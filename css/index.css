@@ -112,11 +112,7 @@
     width: 50px;
 }
 
-.modal-content{
-    height: 350px !important;
-    /*width: 500px !important;*/
-}
-
 .modal-body{
     margin-top: 50px;
+    margin-bottom: 50px;
 }
