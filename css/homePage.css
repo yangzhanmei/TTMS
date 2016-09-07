@@ -1,3 +1,19 @@
+body{
+    background-image: url("../img/homePage.jpg");
+}
 #logo{
     width: 50px;
+}
+#navbar {
+     background-color: lightskyblue !important;
+ }
+.navbar{
+    border: none;
+}
+#navbar-collapse{
+    margin-top: 10px;
+}
+.change{
+    font-size: 20px;
+    color: deeppink;
 }
