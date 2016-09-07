@@ -102,17 +102,64 @@
     height /**/: 72px;
 }
 
-#header{
+#header {
     border-style: solid;
     border-width: 1px;
     height: 20%;
 }
 
-#logo{
+#logo {
     width: 50px;
 }
 
-.modal-body{
+.modal-body {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#information {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    /*text-align: center;*/
+    /*background-color: white;*/
+}
+
+#myTabContent {
+    margin-top: 20px;
+}
+
+.picture {
+    width: 166px;
+    height: 245px;
+}
+
+.show {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.informationShow {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+
+.show:hover .informationShow {
+    width: 166px;
+    height: 245px;
+    border-radius: 6px;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    visibility: visible;
 }
