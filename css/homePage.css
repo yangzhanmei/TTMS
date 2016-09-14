@@ -1,5 +1,4 @@
 body{
-    /*background-image: url("../img/homePage.jpg");*/
     background-color: #ccc;
 }
 #logo{
@@ -16,5 +15,4 @@ body{
 }
 .change{
     font-size: 20px;
-    /*color: deeppink;*/
 }
