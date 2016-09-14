@@ -1,3 +1,4 @@
+*{font-family: "微软雅黑"}
 .jssora05l, .jssora05r {
     display: block;
     position: absolute;
@@ -121,8 +122,6 @@
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 300px;
-    /*text-align: center;*/
-    /*background-color: white;*/
 }
 
 #myTabContent {
@@ -162,4 +161,11 @@
     -moz-opacity: 0.6;
     opacity: 0.6;
     visibility: visible;
+}
+.input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.modal-content{
+    background-color: gainsboro;
 }

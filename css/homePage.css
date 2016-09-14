@@ -1,11 +1,12 @@
 body{
-    background-image: url("../img/homePage.jpg");
+    /*background-image: url("../img/homePage.jpg");*/
+    background-color: #ccc;
 }
 #logo{
     width: 50px;
 }
 #navbar {
-     background-color: lightskyblue !important;
+     background-color: white !important;
  }
 .navbar{
     border: none;
@@ -15,5 +16,5 @@ body{
 }
 .change{
     font-size: 20px;
-    color: deeppink;
+    /*color: deeppink;*/
 }
