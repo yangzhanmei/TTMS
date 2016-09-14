@@ -1,12 +1,6 @@
-body{
-    background-color: #ccc;
-}
 #logo{
     width: 50px;
 }
-#navbar {
-     background-color: white !important;
- }
 .navbar{
     border: none;
 }
