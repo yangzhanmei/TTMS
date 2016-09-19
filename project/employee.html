@@ -41,7 +41,186 @@
     </div>
 </nav>
 <div>
-    employee
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>人员编号</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>家庭地址</th>
+                <th>联系方式</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1号</td>
+                <td>王勃</td>
+                <td>男</td>
+                <td>38</td>
+                <td>陕西省西安市长安区西安邮电大学</td>
+                <td>12345678901</td>
+                <td>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-pencil" data-toggle="modal" data-target="#changeModal"></span>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>1号</td>
+                <td>王勃</td>
+                <td>男</td>
+                <td>38</td>
+                <td>陕西省西安市长安区西安邮电大学</td>
+                <td>12345678901</td>
+                <td>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-pencil" data-toggle="modal" data-target="#changeModal"></span>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>1号</td>
+                <td>王勃</td>
+                <td>男</td>
+                <td>38</td>
+                <td>陕西省西安市长安区西安邮电大学</td>
+                <td>12345678901</td>
+                <td>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-pencil" data-toggle="modal" data-target="#changeModal"></span>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>1号</td>
+                <td>王勃</td>
+                <td>男</td>
+                <td>38</td>
+                <td>陕西省西安市长安区西安邮电大学</td>
+                <td>12345678901</td>
+                <td>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-pencil" data-toggle="modal" data-target="#changeModal"></span>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="modal fade" id="changeModal" tabindex="-1" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" align="center">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">
+                            修改人员信息
+                        </h4>
+                    </div>
+                    <div class="modal-body col-lg-12" align="center">
+                        <span>姓名:</span><input type="text" class="input" placeholder="请输入演出名称">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <span>性别:</span><input type="text" class="input" placeholder="请输入演出厅语言">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <span>年龄:</span><input type="text" class="input" placeholder="请输入演出厅大小">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <span>家庭住址:</span><input type="text" class="input" placeholder="请输入演出厅大小">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <span>联系方式:</span><input type="text" class="input" placeholder="请输入演出厅大小">
+                        <br/>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div class="modal-footer">
+                        <div align="center">
+                            <a href="studio.html">
+                                <button type="button" class="btn btn-danger">提交</button>
+                            </a>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">取消
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div align="center">
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">添加演出厅</button>
+        </div>
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="modalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" align="center">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="modalLabel">
+                            添加人员
+                        </h4>
+                    </div>
+                    <div class="modal-body col-lg-12" align="center">
+                        <span>姓名:</span><input type="text" class="input" placeholder="请输入演出名称">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <span>性别:</span><input type="text" class="input" placeholder="请输入演出厅语言">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <span>年龄:</span><input type="text" class="input" placeholder="请输入演出厅大小">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <span>家庭住址:</span><input type="text" class="input" placeholder="请输入演出厅大小">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <span>联系方式:</span><input type="text" class="input" placeholder="请输入演出厅大小">
+                        <br/>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div class="modal-footer">
+                        <div align="center">
+                            <a href="studio.html">
+                                <button type="button" class="btn btn-danger">提交</button>
+                            </a>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">取消
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
